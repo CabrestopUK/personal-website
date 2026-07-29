@@ -1,0 +1,119 @@
+html {
+  background-color:black;
+  color: white;
+  font-family: courier;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:aqua;
+  text-decoration: dotted;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border:solid white 2px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+header > * {
+  display: flex;
+  align-items: center;
+  flex: auto;
+}
+
+h2 {
+  margin-bottom: 2px;
+}
+
+.button {
+  height: 25px;
+  width: 50px;
+  border: 3px white solid;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.cover {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.divbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.divbar > div {
+  flex: 0 1 auto;
+  border: 3px dotted white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px;
+  height: 350px;
+  width: 350px;
+}
+
+.centre {
+  text-align: center;
+}
+
+.nomargin {
+  margin: 0px;
+}
+
+.babytext {
+  margin-top: 3px; 
+  color: lightblue; 
+  font-size: smaller;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact > div {
+  padding: 10px;
+  border: 3px dotted white;
+}
+
+#logo {
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+#nav {
+  flex: 0 1 auto;
+}
+
+#nav > * {
+  margin: 8px;
+}
+
+#body {
+  padding: 10px;
+}
+
+#upcoming {
+  background-color: rgb(19, 211, 147);
+}
+
+#faq div {
+  margin: 5px;
+}
+
+#faq p {
+  margin-top: 0;
+}

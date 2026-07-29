@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CabrestopUK</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="images/homepage/logo.svg" width="50" />
+        <h1>CabrestopUK</h1>
+      </div>
+      <div id="nav">
+        <a href="index.html">Homepage</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </header>
+    
+    <div id="body">
+      <h1>hi!</h1>
+      <p>how are you? my name is Oliver and I code in my free time...
+        <a href="about.html" class="button">More in "About Me" section</a>
+      </p>
+      <hr />
+      <h1 class="centre">Projects</h1>
+      <div class="divbar">
+        <!-- TODO bar of projects-->
+        <div>
+          <h2><a>battlefield-aquaintance</a></h2>
+          <img class="cover" src="images/blog-covers/tedit-cover-blog.png" />
+          <p>a simple tkinter text editor</p>
+        </div>
+        <div>
+          <h2><a>this website!</a></h2>
+          <img class="cover" src="images/blog-covers/website-cover-blog.png" />
+          <p>my personal website</p>
+        </div>
+        <div id="upcoming">
+          <h2>another text editor</h2>
+          <img class="cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBhFtgfuh_3TWkzuz1N8YyzoEZH0klfXxU-VdEUeG-sCWebC5ymXV21U&s=10" />
+          <p>upcoming...</p>
+        </div>
+      </div>
+      <hr />
+      <div id="contact">
+        <h1 style="margin: 0;" class="centre">Contact</h1>
+        <p style="margin-top: 0;" >or requests?</p>
+        <div>
+          <!-- TODO contact form (js?) -->
+          <form method="POST" action="https://formowl.dev/api/@/sBBCa0" enctype="multipart/form-data">
+            <div>
+              <label>Full name</label>
+              <input aria-required="true" id="name" type="text" name="name:">
+            </div>
+            <div>
+              <label>Message</label>
+              <textarea rows="7" cols="30" name="comment:"></textarea>
+            </div>
+            <div>  
+              <label>Return email</label>
+              <input aria-required="true" id="name" type="text" name="email:">
+              <input name="_honey_pot" style="display:none;" />
+            </div>  
+            <input type="submit">
+            <input name="_success_url" value="/success" style="display:none;" />
+          </form>
+        </div>
+      </div>
+      <hr />
+      <h1 class="centre">Other accounts</h1>
+      <div class="divbar">
+        <div style="height: 100px;">
+          <h2 style="margin: 5px;">Discord:</h2>
+          <p><a>cabrestopuk</a></p>
+        </div>
+        <div style="height: 100px;">
+          <h2 style="margin: 5px;">Email:</h2>
+          <p><a href="mailto:cabuk-requests@googlegroups.com" class="button">cabuk-requests@googlegroups.com</a></p>
+        </div>
+        <div style="height: 100px;">
+          <h2 style="margin: 5px;">Github:</h2>
+          <p><a href="https://github.com/CabrestopUK" class="button">CabrestopUK</a></p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <footer>
+      <p class="centre">©CabrestopUK 2026</p>
+    </footer>
+  </body>
+</html>
